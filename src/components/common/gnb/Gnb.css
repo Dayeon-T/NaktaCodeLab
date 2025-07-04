@@ -1,0 +1,50 @@
+.gnb {
+  height: 92px;
+  flex-shrink: 0;
+  background: #1E1E1E;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+
+  position: relative; /* 기준점 설정 */
+  padding: 0 42px;
+}
+
+/* 가운데 고정된 메뉴 */
+.gnb-menu {
+  display: flex;
+  gap: 48px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* 메뉴 링크 스타일 */
+.gnb-menu a {
+  text-decoration: none;
+  color: #F8F8F8;
+  font-family: Pretendard;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: -0.255px;
+}
+
+
+.login {
+  position: absolute;
+  right: 42px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  color: #999;
+  font-family: Pretendard;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+}

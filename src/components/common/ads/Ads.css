@@ -1,0 +1,25 @@
+.ads{
+    
+height: 280px;
+flex-shrink: 0;
+border-radius: 20px;
+background: linear-gradient(91deg, #2CFF8C 0%, #03FD49 99.82%);
+display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:102px;
+}
+
+.grid-container-ads {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 0 228px;
+}
+
+
+
+@media (max-width: 1740px) {
+  .grid-container-ads {
+    padding: 0 clamp(100px, 12vw, 228px);
+  }
+}

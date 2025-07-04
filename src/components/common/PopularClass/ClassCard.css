@@ -1,0 +1,125 @@
+.class-card{
+    width: 100%;
+    height: 280px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background-color: #fff;
+    position:relative;
+}
+
+.cl-pick{
+    width: 100px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 20px 0px;
+    opacity: 0.9;
+    background: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #03FD49;
+    font-family: Pretendard;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 15px */
+    letter-spacing: -0.3px;
+}
+
+.class-card-icon{
+    width: 54px;
+    height: 54px;
+    flex-shrink: 0;
+    aspect-ratio: 1/1;
+    border-radius: 54px;
+    border: 7px solid #121212;
+    background:#3f3f3f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    top:253px;
+    right:34px;
+}
+
+.info-title{
+  color: #F8F8F8;
+font-family: Pretendard;
+font-size: 23px;
+font-style: normal;
+font-weight: 600;
+line-height: 130%; /* 29.9px */
+letter-spacing: -0.345px;
+padding:0;
+margin:0;
+}
+
+.info-count{
+  color: #999;
+font-family: Pretendard;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: 125%; /* 21.25px */
+letter-spacing: -0.34px;
+padding:0;
+margin-top:6px;
+margin-bottom:24px;
+}
+
+.class-card-info {
+    margin-top:16px;
+    margin-bottom:48px;
+    margin-left:10px;
+}
+
+.user-img{
+    margin-left:-8px;
+    padding:0;
+    
+}
+
+.enrole-user{
+    color: #777;
+    font-family: Pretendard;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 18.75px */
+    letter-spacing: -0.3px;
+    padding-left:10px;
+    
+}
+
+.enrole-user-name{
+    color: #F8F8F8;
+    font-family: Pretendard;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 18.75px */
+    letter-spacing: -0.3px;
+    
+}
+
+.user-section{
+    display : flex;
+    align-items: center;
+    padding:0;
+    margin: 0;
+    
+
+}
+
+.user-imgs {
+    display: flex;
+    align-items: center;
+    margin: 0; /* 추가 */
+    padding: 0; /* 추가 */
+}
+
+.enrole-user {
+    margin: 0; /* 추가 */
+    line-height: 1.2; /* 필요시 조정 */
+}
+

@@ -1,0 +1,47 @@
+.hero-title{
+    color: #F8F8F8;
+    font-family: Pretendard;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 42px */
+    letter-spacing: -0.63px;
+    padding:0;
+    margin-bottom:14px;
+    margin-top:0;
+}
+
+.hero-title2{
+    font-family: Pretendard;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 42px */
+    letter-spacing: -0.63px;
+    background: linear-gradient(91deg, #2CFF8C 0%, #03FD49 99.82%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding:0;
+    margin-bottom:32px;
+    margin-top:0;
+}
+
+.hero-subtitle{
+    color: #F8F8F8;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 20px */
+    letter-spacing: -0.3px;
+    padding:0;
+    margin:0;
+}
+
+.hero{
+    padding-top:180px;
+    margin:0;
+    padding-bottom:200px;
+    text-align:center;
+}

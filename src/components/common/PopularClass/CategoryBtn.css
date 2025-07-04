@@ -1,0 +1,33 @@
+.cat-btn{
+    display: flex;
+    padding: 20px 24px 22px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 12px;
+    background: #1E1E1E;
+    width:max-content;
+    color: #F8F8F8;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 20px */
+    letter-spacing: -0.3px;
+    border: none; 
+    outline: none;
+
+}
+
+.cat-btn.selected {
+    background: linear-gradient(91deg, #2CFF8C 0%, #03FD49 99.82%);
+    color: #121212;
+    
+    letter-spacing: -0.3px;
+    border: none; 
+    outline: none;
+}
+
+.cats{
+    display:flex;
+}

@@ -1,0 +1,73 @@
+.card-base {
+  position: relative;             
+  height: 280px;
+  border-radius: 26px;
+  background: #1E1E1E;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.btn {
+  position: absolute;              
+  top: 0;
+  right: 0;
+  width: 68px;
+  height: 68px;
+  aspect-ratio: 1/1;
+  border-radius: 0 26px 0 26px;    
+  background: #282828;
+  display: flex;                   
+  align-items: center;
+  justify-content: center;
+}
+
+.card-base h3{
+    color: #F8F8F8;
+    font-family: Pretendard;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; 
+    letter-spacing: -0.48px;
+    padding-left:40px;
+    padding-top:52px;
+    margin:0;
+    display:block;
+}
+
+.card-base p{
+    color: #777;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; 
+    letter-spacing: -0.3px;
+    margin:0;
+    padding-top:14px;
+    padding-left:40px;
+    display:block;
+}
+
+.card-base span{
+    color: #777;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: -0.24px;
+    padding-left:40px;
+    padding-top:90px;
+    display:block;
+}
+
+.btn2{
+  position: absolute;              
+  top: 164px;
+  right: 40px;
+  
+}

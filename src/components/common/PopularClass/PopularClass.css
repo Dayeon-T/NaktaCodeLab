@@ -1,0 +1,70 @@
+.popular-class-grid1{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  padding-left: 228px;
+  padding-right: 228px;
+}
+
+
+
+.cats {
+    display: flex;
+    flex-wrap: wrap; /* 버튼이 한 줄에 다 안 들어가면 자동 줄바꿈 */
+    gap: 24px;
+    padding-left: 228px;
+    margin-bottom: 50px;
+}
+
+
+
+@media (max-width: 1740px) {
+  .popular-class-grid, .cats {
+    padding: 0 clamp(100px, 12vw, 228px);
+  }
+}
+
+.title{
+    color: #F8F8F8;
+    font-family: Pretendard;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 28px */
+    letter-spacing: -0.42px;
+    margin-left:228px;
+    margin-right:228px;
+    margin-top:250px;
+    margin-bottom:32px;
+    padding:0;
+    
+}
+
+@media (max-width: 1740px) {
+  .popular-class-grid1 {
+    padding: 0 clamp(100px, 12vw, 228px);
+  }
+
+  .title{
+     margin-left: clamp(100px, 12vw, 228px);
+     margin-right: clamp(100px, 12vw, 228px);
+     margin-top:250px;
+    margin-bottom:32px;
+  
+  }
+}
+
+
+@media(max-width:1620px){
+  .popular-class-grid1{
+    grid-template-columns: repeat(2, 1fr);
+   
+  }
+
+}
+
+.cat-btn {
+    white-space: normal; /* 버튼 안의 글씨도 줄바꿈 허용 */
+    word-break: keep-all; /* 단어 단위로 줄바꿈, 필요시 */
+    /* width: max-content; ← 이 줄이 있으면 지워주세요! */
+}
