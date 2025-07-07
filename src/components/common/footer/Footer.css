@@ -1,0 +1,135 @@
+.footer {
+    display: flex;
+    background: #121212;
+    color: #fff;
+    
+    padding: 40px 0 20px 0;
+    font-size: 16px;
+    align-items: center;
+    
+    gap:250px;
+    flex-wrap: nowrap;
+}
+
+
+
+.footer-container{
+    display:grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 228px;
+    padding-right: 228px;
+}
+
+
+@media (max-width: 1740px) {
+  .footer-container {
+     padding: 0 clamp(100px, 12vw, 228px);
+  }
+
+  
+}
+
+@media (max-width: 1810px) {
+  .footer, .footer-sec5, .footer-sec6 {
+    flex-wrap: wrap;
+    gap: 64px 32px; /* 행, 열 간격 */
+    justify-content: flex-start;
+  }
+  .footer > div, .footer-sec5>div {
+    width: calc(50% - 16px); /* 2개씩 한 줄에 */
+    min-width: 300px; /* 필요시 최소값 */
+    box-sizing: border-box;
+  }
+}
+
+
+
+
+
+.p1{
+  color: #FFF;
+  font-family: Pretendard;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 18px */
+  letter-spacing: -0.27px;
+}
+
+.p2{
+  color: #999;
+font-family: Pretendard;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 100%; /* 18px */
+letter-spacing: -0.27px;
+margin-top:16px;
+
+}
+
+.footer-sec1 button{
+  display: inline-flex;
+padding: 20px 48px 22px 48px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 12px;
+background: #1E1E1E;
+color: #F8F8F8;
+font-family: Pretendard;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 100%; /* 16px */
+letter-spacing: -0.24px;
+margin-top:28px;
+}
+
+
+
+.footer-sec2 li,
+.footer-sec3 li,
+.footer-sec4 li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #777;
+font-family: Pretendard;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 100%; /* 16px */
+letter-spacing: -0.24px;
+margin-bottom:26px;
+}
+
+.footer-sec5 p, .footer-sec6 p{
+  color: #555;
+font-family: Pretendard;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 100%; /* 14px */
+letter-spacing: -0.21px;
+}
+
+.footer-sec5{
+  margin-top:28px;
+  margin-bottom:16px;
+}
+
+.footer-sec6{
+  margin-bottom:150px;
+}
+
+
+.footer-sec5, .footer-sec6{
+  display:flex;
+  gap:20px
+}
+
+.copy {
+  text-align: right;
+  margin-left: auto;
+}

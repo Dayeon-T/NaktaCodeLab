@@ -17,6 +17,7 @@ h1 {
     line-height: 100%; /* 28px */
     letter-spacing: -0.42px;
     grid-column:1/span 4;
+    margin-top:150px;
     
 }
 

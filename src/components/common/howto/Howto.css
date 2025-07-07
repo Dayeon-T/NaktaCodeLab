@@ -13,6 +13,7 @@
     color: #F8F8F8;
     font-family: Pretendard;
     font-size: 26px;
+    font-weight:bold;
     margin-bottom: 11px;
     line-height: 1; /* 또는 100% */
 }
@@ -57,4 +58,55 @@
   .progress-bar {
     width: 100%;
   }
+}
+
+.mySwiper {
+    overflow: visible;
+    width: 100vw; /* 전체 뷰포트 너비 사용 */
+    margin-left: calc(-1 * clamp(100px, 12vw, 228px)); /* 왼쪽 패딩만큼 왼쪽으로 이동 */
+    padding: 0 clamp(100px, 12vw, 228px); /* 좌우 패딩 추가 */
+}
+
+.swiper-wrapper {
+    overflow: visible;
+}
+
+.swiper-slide {
+    overflow: visible;
+}
+
+/* 데스크톱에서 왼쪽 패딩이 228px일 때 */
+@media (min-width: 1741px) {
+    .mySwiper {
+        margin-left: -228px;
+        padding: 0 228px;
+    }
+}
+
+
+.whatclass{
+    font-family: pretendard;
+    font-size: 24px;
+    color:#03FD49;
+    margin-top:280px;
+    margin-bottom:18px;
+}
+
+.recom{
+    font-family: pretendard;
+    font-size: 30px;
+    color:#F8F8F8;
+    margin-bottom:84px;
+    font-weight: bold;
+}
+
+
+.sectionhow{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-hr{
+    border: 1px solid #282828;
+    margin: 84px 0; /* 위아래 84px 간격 */
 }
