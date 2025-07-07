@@ -1,0 +1,45 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+.newclass-card-img{
+    width: 348px;
+    height: 206px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background:#fff;
+}
+
+.tag-list{
+        color: #03FD49;
+    font-family: Pretendard;
+    font-size: 17px;
+    font-style: normal;
+
+    line-height: 125%; /* 21.25px */
+    letter-spacing: -0.34px;
+    margin-top:16px;
+    margin-bottom:8px;
+}
+
+.new-title{
+    color: #F8F8F8;
+font-family: Pretendard;
+font-size: 21px;
+font-style: normal;
+
+line-height: 130%; /* 27.3px */
+letter-spacing: -0.315px;
+margin-bottom:6px;
+}
+
+.new-info{
+    color: #999;
+font-family: Pretendard;
+font-size: 17px;
+font-style: normal;
+
+line-height: 125%; /* 21.25px */
+letter-spacing: -0.34px;
+}

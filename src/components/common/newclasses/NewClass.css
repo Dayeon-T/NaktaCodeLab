@@ -1,0 +1,37 @@
+*{margin : 0px;
+    padding:0px;}
+
+.new-class-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  padding-left: 228px;
+  padding-right: 228px;
+}
+h1 {
+    color: #F8F8F8;
+    font-family: Pretendard;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 28px */
+    letter-spacing: -0.42px;
+    grid-column:1/span 4;
+    
+}
+
+.catbtn1{
+    grid-column:1/span 4;
+    margin:0;
+}
+
+.new-class-grid .cats {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+@media (max-width: 1740px) {
+  .new-class-grid {
+    padding: 0 clamp(100px, 12vw, 228px);
+  }
+}
