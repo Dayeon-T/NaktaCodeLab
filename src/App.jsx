@@ -5,7 +5,7 @@ import Hero from './components/common/Hero/Hero';
 import PopularClass from './components/common/PopularClass/PopularClass';
 import Ads from './components/common/Ads/Ads';
 import NewClass from './components/common/newclasses/NewClass';
-
+import Howto from './components/common/howto/Howto';
 export default function App() {
     return(
         <>
@@ -15,6 +15,7 @@ export default function App() {
             <PopularClass/>
             <Ads/>
             <NewClass/>
+            <Howto/>
         </>
     )
 }

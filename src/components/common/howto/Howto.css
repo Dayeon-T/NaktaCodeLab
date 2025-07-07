@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.howto-card-title{
+    display: flex;
+    gap:30px;
+    margin-bottom:45px;
+}
+
+.title-title{
+    color: #F8F8F8;
+    font-family: Pretendard;
+    font-size: 26px;
+    margin-bottom: 11px;
+    line-height: 1; /* 또는 100% */
+}
+
+.title-sub{
+    color: #999;
+    font-family: Pretendard;
+    font-size: 19px;
+    padding:0px;
+    line-height: 1; /* 또는 100% */
+}
+
+.howto-grid{
+    padding-left:228px;
+}
+
+.progress-bar-container {
+    margin-bottom: 30px;
+}
+
+.progress-bar {
+    width: calc(100% - 228px);
+    height: 4px;
+    background-color: #333;
+    border-radius: 2px;
+    overflow: hidden;
+    
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(91deg, #2CFF8C 0%, #03FD49 99.82%);
+    border-radius: 2px;
+    transition: width 0.5s ease;
+}
+
+@media (max-width: 1740px) {
+  .howto-grid {
+    padding-left: clamp(100px, 12vw, 228px);
+    padding-right: clamp(100px, 12vw, 228px);
+  }
+  .progress-bar {
+    width: 100%;
+  }
+}
